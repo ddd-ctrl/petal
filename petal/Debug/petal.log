@@ -1,0 +1,241 @@
+﻿  AdaBoost.cpp
+D:\petalVS\AdaBoost.cpp(225,28): warning C4244: “/=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\AdaBoost.cpp(225,28): warning C4244:         with
+D:\petalVS\AdaBoost.cpp(225,28): warning C4244:         [
+D:\petalVS\AdaBoost.cpp(225,28): warning C4244:             _Ty=NumValue
+D:\petalVS\AdaBoost.cpp(225,28): warning C4244:         ]
+D:\petalVS\AdaBoost.cpp(236,28): warning C4244: “/=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\AdaBoost.cpp(236,28): warning C4244:         with
+D:\petalVS\AdaBoost.cpp(236,28): warning C4244:         [
+D:\petalVS\AdaBoost.cpp(236,28): warning C4244:             _Ty=NumValue
+D:\petalVS\AdaBoost.cpp(236,28): warning C4244:         ]
+  DTree.cpp
+D:\petalVS\DTree.cpp(83,32): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\DTree.cpp(83,32): warning C4244:         with
+D:\petalVS\DTree.cpp(83,32): warning C4244:         [
+D:\petalVS\DTree.cpp(83,32): warning C4244:             _Ty=NumValue
+D:\petalVS\DTree.cpp(83,32): warning C4244:         ]
+D:\petalVS\DTree.cpp(213,37): warning C4244: “=”: 从“double”转换到“NumValue”，可能丢失数据
+D:\petalVS\DTree.cpp(307,25): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\DTree.cpp(307,25): warning C4244:         with
+D:\petalVS\DTree.cpp(307,25): warning C4244:         [
+D:\petalVS\DTree.cpp(307,25): warning C4244:             _Ty=NumValue
+D:\petalVS\DTree.cpp(307,25): warning C4244:         ]
+  Feating2Learner.cpp
+  Feating3Learner.cpp
+  LR_SGD.cpp
+D:\petalVS\LR_SGD.cpp(226,43): warning C4244: “=”: 从“_Ty”转换到“NumValue”，可能丢失数据
+D:\petalVS\LR_SGD.cpp(226,43): warning C4244:         with
+D:\petalVS\LR_SGD.cpp(226,43): warning C4244:         [
+D:\petalVS\LR_SGD.cpp(226,43): warning C4244:             _Ty=double
+D:\petalVS\LR_SGD.cpp(226,43): warning C4244:         ]
+  RFDTree.cpp
+D:\petalVS\RFDTree.cpp(254,37): warning C4244: “=”: 从“double”转换到“NumValue”，可能丢失数据
+  a2de.cpp
+D:\petalVS\ALGLIB_specialfunctions.h(865,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“a2de.cpp”)
+  
+D:\petalVS\a2de.cpp(584,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(603,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(609,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(612,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\a2de.cpp(637,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(644,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(778,34): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(792,34): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(842,88): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+D:\petalVS\a2de.cpp(842,88): warning C4244:         with
+D:\petalVS\a2de.cpp(842,88): warning C4244:         [
+D:\petalVS\a2de.cpp(842,88): warning C4244:             _Ty=double
+D:\petalVS\a2de.cpp(842,88): warning C4244:         ]
+D:\petalVS\a2de.cpp(842,88): warning C4244:         and
+D:\petalVS\a2de.cpp(842,88): warning C4244:         [
+D:\petalVS\a2de.cpp(842,88): warning C4244:             _Ty=NumValue
+D:\petalVS\a2de.cpp(842,88): warning C4244:         ]
+D:\petalVS\a2de.cpp(856,86): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+D:\petalVS\a2de.cpp(856,86): warning C4244:         with
+D:\petalVS\a2de.cpp(856,86): warning C4244:         [
+D:\petalVS\a2de.cpp(856,86): warning C4244:             _Ty=double
+D:\petalVS\a2de.cpp(856,86): warning C4244:         ]
+D:\petalVS\a2de.cpp(856,86): warning C4244:         and
+D:\petalVS\a2de.cpp(856,86): warning C4244:         [
+D:\petalVS\a2de.cpp(856,86): warning C4244:             _Ty=NumValue
+D:\petalVS\a2de.cpp(856,86): warning C4244:         ]
+D:\petalVS\a2de.cpp(889,82): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+D:\petalVS\a2de.cpp(889,82): warning C4244:         with
+D:\petalVS\a2de.cpp(889,82): warning C4244:         [
+D:\petalVS\a2de.cpp(889,82): warning C4244:             _Ty=double
+D:\petalVS\a2de.cpp(889,82): warning C4244:         ]
+D:\petalVS\a2de.cpp(889,82): warning C4244:         and
+D:\petalVS\a2de.cpp(889,82): warning C4244:         [
+D:\petalVS\a2de.cpp(889,82): warning C4244:             _Ty=NumValue
+D:\petalVS\a2de.cpp(889,82): warning C4244:         ]
+D:\petalVS\a2de.cpp(1137,56): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\a2de.cpp(1137,56): warning C4244:         with
+D:\petalVS\a2de.cpp(1137,56): warning C4244:         [
+D:\petalVS\a2de.cpp(1137,56): warning C4244:             _Ty=NumValue
+D:\petalVS\a2de.cpp(1137,56): warning C4244:         ]
+D:\petalVS\a2de.cpp(1384,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\a2de.cpp(1403,28): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+  a2de2.cpp
+  a2de_diselect.cpp
+D:\petalVS\a2de_diselect.cpp(91,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  a2de_ms.cpp
+D:\petalVS\a2de_ms.cpp(80,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  a2je.cpp
+  a3de.cpp
+D:\petalVS\a3de.cpp(70,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  a3de_ms.cpp
+D:\petalVS\a3de_ms.cpp(81,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  aode.cpp
+D:\petalVS\aode.cpp(138,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\aode.cpp(517,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(536,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(542,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(545,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\aode.cpp(773,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(792,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(798,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(801,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\aode.cpp(832,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\aode.cpp(839,27): warning C4018: “<”: 有符号/无符号不匹配
+  aodeBSE.cpp
+D:\petalVS\ALGLIB_specialfunctions.h(865,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“aodeBSE.cpp”)
+  
+  aodeDist.cpp
+D:\petalVS\aodeDist.cpp(418,19): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\aodeDist.cpp(418,19): warning C4244:         with
+D:\petalVS\aodeDist.cpp(418,19): warning C4244:         [
+D:\petalVS\aodeDist.cpp(418,19): warning C4244:             _Ty=NumValue
+D:\petalVS\aodeDist.cpp(418,19): warning C4244:         ]
+  aodeEager.cpp
+D:\petalVS\aodeEager.cpp(328,19): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\aodeEager.cpp(328,19): warning C4244:         with
+D:\petalVS\aodeEager.cpp(328,19): warning C4244:         [
+D:\petalVS\aodeEager.cpp(328,19): warning C4244:             _Ty=NumValue
+D:\petalVS\aodeEager.cpp(328,19): warning C4244:         ]
+D:\petalVS\aodeEager.cpp(388,34): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         with
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         [
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:             _Ty=double
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         ]
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         and
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         [
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:             _Ty=NumValue
+D:\petalVS\aodeEager.cpp(388,34): warning C4244:         ]
+  aodeExt.cpp
+D:\petalVS\aodeExt.cpp(100,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\aodeExt.cpp(152,32): warning C4244: “参数”: 从“double”转换到“const _Ty”，可能丢失数据
+D:\petalVS\aodeExt.cpp(152,32): warning C4244:         with
+D:\petalVS\aodeExt.cpp(152,32): warning C4244:         [
+D:\petalVS\aodeExt.cpp(152,32): warning C4244:             _Ty=NumValue
+D:\petalVS\aodeExt.cpp(152,32): warning C4244:         ]
+D:\petalVS\aodeExt.cpp(182,91): warning C4018: “>”: 有符号/无符号不匹配
+D:\petalVS\aodeExt.cpp(205,29): warning C4244: “*=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\aodeExt.cpp(205,29): warning C4244:         with
+D:\petalVS\aodeExt.cpp(205,29): warning C4244:         [
+D:\petalVS\aodeExt.cpp(205,29): warning C4244:             _Ty=NumValue
+D:\petalVS\aodeExt.cpp(205,29): warning C4244:         ]
+  baggedLearner.cpp
+  biasvariance.cpp
+  正在生成代码...
+  正在编译...
+  capabilities.cpp
+  cbn.cpp
+  dataStatistics.cpp
+  distributionTree.cpp
+D:\petalVS\distributionTree.cpp(229,10): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(514,23): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(547,31): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(571,29): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(592,23): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(904,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\distributionTree.cpp(934,23): warning C4018: “<”: 有符号/无符号不匹配
+  ensembleLearner.cpp
+  externXVal.cpp
+  featingLearner.cpp
+  filteredLearner.cpp
+  gnb.cpp
+D:\petalVS\gnb.cpp(101,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\gnb.cpp(118,39): warning C4018: “<”: 有符号/无符号不匹配
+  incrementalLearner.cpp
+  kdb.cpp
+  kdbExt.cpp
+D:\petalVS\ALGLIB_specialfunctions.h(865,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“kdbExt.cpp”)
+  
+D:\petalVS\kdbExt.cpp(173,23): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(198,19): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(229,25): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(243,27): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(265,27): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(278,29): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(282,31): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(299,31): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbExt.cpp(1101,21): warning C4018: “<”: 有符号/无符号不匹配
+  kdbGaussian.cpp
+  kdbSelective.cpp
+D:\petalVS\kdbSelective.cpp(24,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\petalVS\ALGLIB_specialfunctions.h(865,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“kdbSelective.cpp”)
+  
+D:\petalVS\kdbSelective.cpp(113,23): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(130,19): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(154,25): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(168,27): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(178,27): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(191,29): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(195,31): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelective.cpp(200,31): warning C4018: “<=”: 有符号/无符号不匹配
+  kdbSelectiveClean.cpp
+D:\petalVS\ALGLIB_specialfunctions.h(865,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“kdbSelectiveClean.cpp”)
+  
+D:\petalVS\kdbSelectiveClean.cpp(111,19): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelectiveClean.cpp(130,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\kdbSelectiveClean.cpp(141,23): warning C4018: “<=”: 有符号/无符号不匹配
+D:\petalVS\kdbSelectiveClean.cpp(155,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\petalVS\kdbSelectiveClean.cpp(165,21): warning C4018: “<=”: 有符号/无符号不匹配
+  learner.cpp
+  learnerRegistry.cpp
+  learningCurves.cpp
+  lr.cpp
+D:\petalVS\lr.cpp(256,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  nb.cpp
+  正在生成代码...
+  正在编译...
+  petal.cpp
+D:\petalVS\syntheticInstanceStream.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“petal.cpp”)
+  
+  random.cpp
+  sampler.cpp
+D:\petalVS\sampler.cpp(74,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  stackedLearner.cpp
+  streamTest.cpp
+D:\petalVS\streamTest.cpp(57,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  subspaceLRSGD.cpp
+D:\petalVS\subspaceLRSGD.cpp(199,33): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+D:\petalVS\subspaceLRSGD.cpp(199,33): warning C4244:         with
+D:\petalVS\subspaceLRSGD.cpp(199,33): warning C4244:         [
+D:\petalVS\subspaceLRSGD.cpp(199,33): warning C4244:             _Ty=NumValue
+D:\petalVS\subspaceLRSGD.cpp(199,33): warning C4244:         ]
+D:\petalVS\subspaceLRSGD.cpp(218,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\subspaceLRSGD.cpp(222,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\petalVS\subspaceLRSGD.cpp(226,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  tan.cpp
+  trainTest.cpp
+D:\petalVS\trainTest.cpp(169,41): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         with
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         [
+D:\petalVS\trainTest.cpp(169,41): warning C4244:             _Ty=double
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         ]
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         and
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         [
+D:\petalVS\trainTest.cpp(169,41): warning C4244:             _Ty=NumValue
+D:\petalVS\trainTest.cpp(169,41): warning C4244:         ]
+D:\petalVS\trainTest.cpp(109,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  xVal.cpp
+  正在生成代码...
+  petal.vcxproj -> D:\petalVS\Debug\petal.exe

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\petalVS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|D:\\petalVS\\xVal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|solutionrelative:xVal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|D:\\petalVS\\petal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|solutionrelative:petal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|D:\\petalVS\\nb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|solutionrelative:nb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|D:\\petalVS\\incrementalLearner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|solutionrelative:incrementalLearner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|D:\\petalVS\\instanceStream.h||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}|petal.vcxproj|solutionrelative:instanceStream.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "incrementalLearner.cpp",
+              "DocumentMoniker": "D:\\petalVS\\incrementalLearner.cpp",
+              "RelativeDocumentMoniker": "incrementalLearner.cpp",
+              "ToolTip": "D:\\petalVS\\incrementalLearner.cpp",
+              "RelativeToolTip": "incrementalLearner.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T05:57:00.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nb.cpp",
+              "DocumentMoniker": "D:\\petalVS\\nb.cpp",
+              "RelativeDocumentMoniker": "nb.cpp",
+              "ToolTip": "D:\\petalVS\\nb.cpp",
+              "RelativeToolTip": "nb.cpp",
+              "ViewState": "AgIAALMBAAAAAAAAAAAkwKcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T05:51:50.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xVal.cpp",
+              "DocumentMoniker": "D:\\petalVS\\xVal.cpp",
+              "RelativeDocumentMoniker": "xVal.cpp",
+              "ToolTip": "D:\\petalVS\\xVal.cpp",
+              "RelativeToolTip": "xVal.cpp",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwOIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T05:34:54.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "instanceStream.h",
+              "DocumentMoniker": "D:\\petalVS\\instanceStream.h",
+              "RelativeDocumentMoniker": "instanceStream.h",
+              "ToolTip": "D:\\petalVS\\instanceStream.h",
+              "RelativeToolTip": "instanceStream.h",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-13T05:14:32.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "petal.cpp",
+              "DocumentMoniker": "D:\\petalVS\\petal.cpp",
+              "RelativeDocumentMoniker": "petal.cpp",
+              "ToolTip": "D:\\petalVS\\petal.cpp",
+              "RelativeToolTip": "petal.cpp",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAgwBsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T05:51:29.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7CB99667-503F-0DF8-0ECD-B2C57C8C1693}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="a2de.cpp" />
+    <ClCompile Include="a2de2.cpp" />
+    <ClCompile Include="a2de_diselect.cpp" />
+    <ClCompile Include="a2de_ms.cpp" />
+    <ClCompile Include="a2je.cpp" />
+    <ClCompile Include="a3de.cpp" />
+    <ClCompile Include="a3de_ms.cpp" />
+    <ClCompile Include="AdaBoost.cpp" />
+    <ClCompile Include="alglibinternal.cpp" />
+    <ClCompile Include="ALGLIB_ap.cpp" />
+    <ClCompile Include="ALGLIB_specialfunctions.cpp" />
+    <ClCompile Include="aode.cpp" />
+    <ClCompile Include="aodeBSE.cpp" />
+    <ClCompile Include="aodeDist.cpp" />
+    <ClCompile Include="aodeEager.cpp" />
+    <ClCompile Include="aodeExt.cpp" />
+    <ClCompile Include="baggedLearner.cpp" />
+    <ClCompile Include="biasvariance.cpp" />
+    <ClCompile Include="biasVarianceInstanceStream.cpp" />
+    <ClCompile Include="capabilities.cpp" />
+    <ClCompile Include="cbn.cpp" />
+    <ClCompile Include="classAttMI.cpp" />
+    <ClCompile Include="cmiCrossTab.cpp" />
+    <ClCompile Include="correlationMeasures.cpp" />
+    <ClCompile Include="dataStatistics.cpp" />
+    <ClCompile Include="dataStatisticsAction.cpp" />
+    <ClCompile Include="discretiser.cpp" />
+    <ClCompile Include="distributionTree.cpp" />
+    <ClCompile Include="distributionTreeEager.cpp" />
+    <ClCompile Include="DTree.cpp" />
+    <ClCompile Include="ensembleLearner.cpp" />
+    <ClCompile Include="eqDepthDiscretiser.cpp" />
+    <ClCompile Include="externLearner.cpp" />
+    <ClCompile Include="externXVal.cpp" />
+    <ClCompile Include="extLearnLibSVM.cpp" />
+    <ClCompile Include="extLearnOMCLPBoost.cpp" />
+    <ClCompile Include="extLearnPetal.cpp" />
+    <ClCompile Include="extLearnSVMSGD.cpp" />
+    <ClCompile Include="extLearnVW.cpp" />
+    <ClCompile Include="extLearnWeka.cpp" />
+    <ClCompile Include="Feating2Learner.cpp" />
+    <ClCompile Include="Feating3Learner.cpp" />
+    <ClCompile Include="featingLearner.cpp" />
+    <ClCompile Include="filteredLearner.cpp" />
+    <ClCompile Include="FilterSet.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="gnb.cpp" />
+    <ClCompile Include="incrementalLearner.cpp" />
+    <ClCompile Include="IndirectInstanceSample.cpp" />
+    <ClCompile Include="IndirectInstanceStream.cpp" />
+    <ClCompile Include="IndirectInstanceSubstream.cpp" />
+    <ClCompile Include="instance.cpp" />
+    <ClCompile Include="instanceFile.cpp" />
+    <ClCompile Include="instanceSample.cpp" />
+    <ClCompile Include="instanceStream.cpp" />
+    <ClCompile Include="instanceStreamClassFilter.cpp" />
+    <ClCompile Include="instanceStreamDiscretiser.cpp" />
+    <ClCompile Include="instanceStreamDynamicDiscretiser.cpp" />
+    <ClCompile Include="instanceStreamDynamicPIDDiscretiser.cpp" />
+    <ClCompile Include="instanceStreamFilter.cpp" />
+    <ClCompile Include="instanceStreamNormalisationFilter.cpp" />
+    <ClCompile Include="instanceStreamQuadraticFilter.cpp" />
+    <ClCompile Include="kdb.cpp" />
+    <ClCompile Include="kdbExt.cpp" />
+    <ClCompile Include="kdbGaussian.cpp" />
+    <ClCompile Include="kdbSelective.cpp" />
+    <ClCompile Include="kdbSelectiveClean.cpp" />
+    <ClCompile Include="lbfgs.c" />
+    <ClCompile Include="learner.cpp" />
+    <ClCompile Include="learnerRegistry.cpp" />
+    <ClCompile Include="learningCurves.cpp" />
+    <ClCompile Include="lr.cpp" />
+    <ClCompile Include="LR_SGD.cpp" />
+    <ClCompile Include="MDLBinaryDiscretiser.cpp" />
+    <ClCompile Include="MDLDiscretiser.cpp" />
+    <ClCompile Include="mtrand.cpp" />
+    <ClCompile Include="nb.cpp" />
+    <ClCompile Include="petal.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="RFDTree.cpp" />
+    <ClCompile Include="sampler.cpp" />
+    <ClCompile Include="ShuffledInstanceStream.cpp" />
+    <ClCompile Include="stackedLearner.cpp" />
+    <ClCompile Include="StoredIndirectInstanceStream.cpp" />
+    <ClCompile Include="StoredInstanceStream.cpp" />
+    <ClCompile Include="streamTest.cpp" />
+    <ClCompile Include="subspaceLRSGD.cpp" />
+    <ClCompile Include="syntheticInstanceStream.cpp" />
+    <ClCompile Include="tan.cpp" />
+    <ClCompile Include="trainTest.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="xVal.cpp" />
+    <ClCompile Include="xValInstanceStream.cpp" />
+    <ClCompile Include="xxxxyDist.cpp" />
+    <ClCompile Include="xxxxyDist3.cpp" />
+    <ClCompile Include="xxxyDist.cpp" />
+    <ClCompile Include="xxxyDist2.cpp" />
+    <ClCompile Include="xxxyDist3.cpp" />
+    <ClCompile Include="xxxyDist4.cpp" />
+    <ClCompile Include="xxyDist.cpp" />
+    <ClCompile Include="xxyDistEager.cpp" />
+    <ClCompile Include="xyDist.cpp" />
+    <ClCompile Include="xyGaussDist.cpp" />
+    <ClCompile Include="yDist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a2de.h" />
+    <ClInclude Include="a2de2.h" />
+    <ClInclude Include="a2de_diselect.h" />
+    <ClInclude Include="a2de_ms.h" />
+    <ClInclude Include="a2je.h" />
+    <ClInclude Include="a3de.h" />
+    <ClInclude Include="a3de_ms.h" />
+    <ClInclude Include="AdaBoost.h" />
+    <ClInclude Include="AddressableInstanceStream.h" />
+    <ClInclude Include="alglibinternal.h" />
+    <ClInclude Include="ALGLIB_ap.h" />
+    <ClInclude Include="ALGLIB_specialfunctions.h" />
+    <ClInclude Include="aode.h" />
+    <ClInclude Include="aodeBSE.h" />
+    <ClInclude Include="aodeDist.h" />
+    <ClInclude Include="aodeEager.h" />
+    <ClInclude Include="aodeExt.h" />
+    <ClInclude Include="arithmetic_ansi.h" />
+    <ClInclude Include="baggedLearner.h" />
+    <ClInclude Include="biasvariance.h" />
+    <ClInclude Include="biasVarianceInstanceStream.h" />
+    <ClInclude Include="capabilities.h" />
+    <ClInclude Include="cbn.h" />
+    <ClInclude Include="classAttMI.h" />
+    <ClInclude Include="cmiCrossTab.h" />
+    <ClInclude Include="correlationMeasures.h" />
+    <ClInclude Include="crosstab.h" />
+    <ClInclude Include="crosstab3d.h" />
+    <ClInclude Include="dataStatistics.h" />
+    <ClInclude Include="dataStatisticsAction.h" />
+    <ClInclude Include="DEPQ.h" />
+    <ClInclude Include="discretiser.h" />
+    <ClInclude Include="distributionTree.h" />
+    <ClInclude Include="distributionTreeEager.h" />
+    <ClInclude Include="DTree.h" />
+    <ClInclude Include="ensembleLearner.h" />
+    <ClInclude Include="eqDepthDiscretiser.h" />
+    <ClInclude Include="externLearner.h" />
+    <ClInclude Include="externXVal.h" />
+    <ClInclude Include="extLearnLibSVM.h" />
+    <ClInclude Include="extLearnOMCLPBoost.h" />
+    <ClInclude Include="extLearnPetal.h" />
+    <ClInclude Include="extLearnSVMSGD.h" />
+    <ClInclude Include="extLearnVW.h" />
+    <ClInclude Include="extLearnWeka.h" />
+    <ClInclude Include="Feating2Learner.h" />
+    <ClInclude Include="Feating3Learner.h" />
+    <ClInclude Include="featingLearner.h" />
+    <ClInclude Include="FILEtype.h" />
+    <ClInclude Include="filteredLearner.h" />
+    <ClInclude Include="FilterSet.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="gnb.h" />
+    <ClInclude Include="incrementalLearner.h" />
+    <ClInclude Include="IndirectInstanceSample.h" />
+    <ClInclude Include="IndirectInstanceStream.h" />
+    <ClInclude Include="IndirectInstanceSubstream.h" />
+    <ClInclude Include="instance.h" />
+    <ClInclude Include="instanceFile.h" />
+    <ClInclude Include="instanceSample.h" />
+    <ClInclude Include="instanceStream.h" />
+    <ClInclude Include="instanceStreamClassFilter.h" />
+    <ClInclude Include="instanceStreamDiscretiser.h" />
+    <ClInclude Include="instanceStreamDynamicDiscretiser.h" />
+    <ClInclude Include="instanceStreamDynamicPIDDiscretiser.h" />
+    <ClInclude Include="instanceStreamFilter.h" />
+    <ClInclude Include="instanceStreamNormalisationFilter.h" />
+    <ClInclude Include="instanceStreamQuadraticFilter.h" />
+    <ClInclude Include="kdb.h" />
+    <ClInclude Include="kdbCDdisc.h" />
+    <ClInclude Include="kdbCDRAM.h" />
+    <ClInclude Include="kdbEager.h" />
+    <ClInclude Include="kdbExt.h" />
+    <ClInclude Include="kdbGaussian.h" />
+    <ClInclude Include="kdbSelective.h" />
+    <ClInclude Include="kdbSelectiveClean.h" />
+    <ClInclude Include="lbfgs.h" />
+    <ClInclude Include="learner.h" />
+    <ClInclude Include="learnerRegistry.h" />
+    <ClInclude Include="learningCurves.h" />
+    <ClInclude Include="lr.h" />
+    <ClInclude Include="LR_SGD.h" />
+    <ClInclude Include="MDLBinaryDiscretiser.h" />
+    <ClInclude Include="MDLDiscretiser.h" />
+    <ClInclude Include="mtrand.h" />
+    <ClInclude Include="nb.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="RFDTree.h" />
+    <ClInclude Include="sampler.h" />
+    <ClInclude Include="ShuffledInstanceStream.h" />
+    <ClInclude Include="smoothing.h" />
+    <ClInclude Include="stackedLearner.h" />
+    <ClInclude Include="StoredIndirectInstanceStream.h" />
+    <ClInclude Include="StoredInstanceStream.h" />
+    <ClInclude Include="streamTest.h" />
+    <ClInclude Include="subspaceLRSGD.h" />
+    <ClInclude Include="syntheticInstanceStream.h" />
+    <ClInclude Include="tan.h" />
+    <ClInclude Include="trainTest.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="xVal.h" />
+    <ClInclude Include="xValInstanceStream.h" />
+    <ClInclude Include="xxxxyDist.h" />
+    <ClInclude Include="xxxxyDist3.h" />
+    <ClInclude Include="xxxyDist.h" />
+    <ClInclude Include="xxxyDist2.h" />
+    <ClInclude Include="xxxyDist3.h" />
+    <ClInclude Include="xxxyDist4.h" />
+    <ClInclude Include="xxyDist.h" />
+    <ClInclude Include="xxyDistEager.h" />
+    <ClInclude Include="xyDist.h" />
+    <ClInclude Include="xyGaussDist.h" />
+    <ClInclude Include="yDist.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a2de.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a2de2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a2de_diselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a2de_ms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a2je.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a3de.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a3de_ms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaBoost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alglibinternal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGLIB_ap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGLIB_specialfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aodeBSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aodeDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aodeEager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aodeExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="baggedLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="biasvariance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="biasVarianceInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="capabilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cbn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classAttMI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmiCrossTab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="correlationMeasures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataStatisticsAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="discretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distributionTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distributionTreeEager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ensembleLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eqDepthDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="externLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="externXVal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnLibSVM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnOMCLPBoost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnPetal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnSVMSGD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnVW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extLearnWeka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feating2Learner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feating3Learner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="featingLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filteredLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gnb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="incrementalLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndirectInstanceSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndirectInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndirectInstanceSubstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamClassFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamDynamicDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamDynamicPIDDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamNormalisationFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instanceStreamQuadraticFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdbExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdbGaussian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdbSelective.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdbSelectiveClean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="learner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="learnerRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="learningCurves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LR_SGD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDLBinaryDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDLDiscretiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mtrand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="petal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RFDTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffledInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stackedLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StoredIndirectInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StoredInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="streamTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subspaceLRSGD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syntheticInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trainTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xVal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xValInstanceStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxxyDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxxyDist3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxyDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxyDist2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxyDist3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxxyDist4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxyDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xxyDistEager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xyDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xyGaussDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yDist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lbfgs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a2de.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2de2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2de_diselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2de_ms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2je.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a3de.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a3de_ms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaBoost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressableInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alglibinternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ALGLIB_ap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ALGLIB_specialfunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aodeBSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aodeDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aodeEager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aodeExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmetic_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="baggedLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="biasvariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="biasVarianceInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capabilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classAttMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmiCrossTab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="correlationMeasures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crosstab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crosstab3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataStatisticsAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEPQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="discretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distributionTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distributionTreeEager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ensembleLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eqDepthDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externXVal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnLibSVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnOMCLPBoost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnPetal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnSVMSGD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnVW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extLearnWeka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Feating2Learner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Feating3Learner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featingLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FILEtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filteredLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gnb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incrementalLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndirectInstanceSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndirectInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndirectInstanceSubstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamClassFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamDynamicDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamDynamicPIDDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamNormalisationFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanceStreamQuadraticFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbCDdisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbCDRAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbEager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbGaussian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbSelective.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdbSelectiveClean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lbfgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="learner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="learnerRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="learningCurves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LR_SGD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDLBinaryDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDLDiscretiser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mtrand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RFDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuffledInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stackedLearner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StoredIndirectInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StoredInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="streamTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subspaceLRSGD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syntheticInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trainTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xVal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xValInstanceStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxxyDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxxyDist3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxyDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxyDist2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxyDist3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxxyDist4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxyDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxyDistEager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xyDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xyGaussDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yDist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
